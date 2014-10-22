@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5F3DD0D7-9B3E-4B90-BA73-44E87C2E15FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linguini", "core\Linguini\Linguini.csproj", "{DD587F70-A6C9-4B43-925D-09C0B37672AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linguini.Test", "core\Linguini\Linguini.Test\Linguini.Test.csproj", "{121C8356-47D3-4071-950F-5AD13F2B539A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parsers", "Parsers", "{7A2146B6-3D06-4C8E-9ED8-EA90768AE286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CLI", "CLI", "{2F64FB96-FFAB-4F73-A6E6-36219612BD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linguini.Cli", "lingcli\Linguini.Cli\Linguini.Cli.csproj", "{A6B9B3D8-703F-4693-9D78-4923B52FB995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linguini.Cli.Test", "lingcli\Linguini.Cli\Linguini.Cli.Test\Linguini.Cli.Test.csproj", "{E9BE6C9E-60F4-4461-959C-E1534803BB99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{121C8356-47D3-4071-950F-5AD13F2B539A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121C8356-47D3-4071-950F-5AD13F2B539A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121C8356-47D3-4071-950F-5AD13F2B539A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121C8356-47D3-4071-950F-5AD13F2B539A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B9B3D8-703F-4693-9D78-4923B52FB995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B9B3D8-703F-4693-9D78-4923B52FB995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B9B3D8-703F-4693-9D78-4923B52FB995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B9B3D8-703F-4693-9D78-4923B52FB995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD587F70-A6C9-4B43-925D-09C0B37672AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD587F70-A6C9-4B43-925D-09C0B37672AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD587F70-A6C9-4B43-925D-09C0B37672AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD587F70-A6C9-4B43-925D-09C0B37672AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9BE6C9E-60F4-4461-959C-E1534803BB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BE6C9E-60F4-4461-959C-E1534803BB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BE6C9E-60F4-4461-959C-E1534803BB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BE6C9E-60F4-4461-959C-E1534803BB99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD587F70-A6C9-4B43-925D-09C0B37672AA} = {5F3DD0D7-9B3E-4B90-BA73-44E87C2E15FE}
+		{121C8356-47D3-4071-950F-5AD13F2B539A} = {5F3DD0D7-9B3E-4B90-BA73-44E87C2E15FE}
+		{A6B9B3D8-703F-4693-9D78-4923B52FB995} = {2F64FB96-FFAB-4F73-A6E6-36219612BD80}
+		{E9BE6C9E-60F4-4461-959C-E1534803BB99} = {2F64FB96-FFAB-4F73-A6E6-36219612BD80}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = core\Linguini\Linguini.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
