@@ -1,0 +1,3 @@
+artifacts:
+  - path: linguini\core\Linguini\bin\Release\Linguini.dll
+    name: Linguini.dll
