@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>linguini</id>
+    <version>0.1.0</version>
+    <authors>Christopher Maneu, Deezer</authors>
+    <owners>Christopher Maneu, Deezer</owners>
+    <iconUrl>http://opensource.maneu.net/linguini/inguini-icon-nuget.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A simple localization toolkit.</description>
+    <tags>l10n i18N resx po portable-object translation, localization resx resw</tags>
+  </metadata>
+</package>
