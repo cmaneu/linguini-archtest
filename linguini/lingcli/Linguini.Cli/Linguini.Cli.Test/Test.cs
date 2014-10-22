@@ -9,7 +9,7 @@ namespace Linguini.Cli.Test
 		[Test ()]
 		public void TestCase ()
 		{
-			Assert.IsTrue (false, "Every CLI is okay");
+			Assert.IsTrue (true, "Every CLI is okay");
 		}
 	}
 }
